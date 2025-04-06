@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Maala - Your smart shopping companion for finding the best deals and negotiating prices"
+    />
+    <meta
+      name="keywords"
+      content="shopping, deals, price negotiation, e-commerce, smart shopping"
+    />
+    <meta name="author" content="Maala" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://maala.com/" />
+    <meta property="og:title" content="Maala - Smart Shopping Companion" />
+    <meta
+      property="og:description"
+      content="Find the best deals and negotiate prices with Maala"
+    />
+    <meta property="og:image" content="https://maala.com/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://maala.com/" />
+    <meta property="twitter:title" content="Maala - Smart Shopping Companion" />
+    <meta
+      property="twitter:description"
+      content="Find the best deals and negotiate prices with Maala"
+    />
+    <meta property="twitter:image" content="https://maala.com/og-image.jpg" />
+
+    <title>Maala - Smart Shopping Companion</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/styles/main.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <div class="nav__logo">
+          <a href="/" aria-label="Maala Home">
+            <img
+              src="/images/logo.svg"
+              alt="Maala Logo"
+              width="120"
+              height="40"
+            />
+          </a>
+        </div>
+        <div class="nav__menu">
+          <button class="nav__toggle" aria-label="Toggle Menu">
+            <span class="nav__toggle-icon"></span>
+          </button>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="/search" class="nav__link">Search</a>
+            </li>
+            <li class="nav__item">
+              <a href="/deals" class="nav__link">Deals</a>
+            </li>
+            <li class="nav__item">
+              <a href="/favorites" class="nav__link">Favorites</a>
+            </li>
+            <li class="nav__item">
+              <a href="/analytics" class="nav__link">Analytics</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__auth">
+          <button class="btn btn--primary" id="loginBtn">Login</button>
+          <button class="btn btn--secondary" id="signupBtn">Sign Up</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">Smart Shopping Made Simple</h1>
+          <p class="hero__subtitle">
+            Find the best deals, negotiate prices, and save money with Maala
+          </p>
+          <div class="hero__cta">
+            <button class="btn btn--primary btn--large">Get Started</button>
+            <button class="btn btn--secondary btn--large">Learn More</button>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img
+            src="/images/hero-illustration.svg"
+            alt="Smart Shopping Illustration"
+            width="600"
+            height="400"
+          />
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="features">
+        <h2 class="section-title">Why Choose Maala?</h2>
+        <div class="features__grid">
+          <div class="feature-card">
+            <img
+              src="/images/icon-search.svg"
+              alt="Smart Search"
+              class="feature-card__icon"
+            />
+            <h3 class="feature-card__title">Smart Search</h3>
+            <p class="feature-card__description">
+              Find exactly what you're looking for with our intelligent search
+              system
+            </p>
+          </div>
+          <div class="feature-card">
+            <img
+              src="/images/icon-negotiate.svg"
+              alt="Price Negotiation"
+              class="feature-card__icon"
+            />
+            <h3 class="feature-card__title">Price Negotiation</h3>
+            <p class="feature-card__description">
+              Get the best deals with our automated negotiation system
+            </p>
+          </div>
+          <div class="feature-card">
+            <img
+              src="/images/icon-analytics.svg"
+              alt="Smart Analytics"
+              class="feature-card__icon"
+            />
+            <h3 class="feature-card__title">Smart Analytics</h3>
+            <p class="feature-card__description">
+              Track your shopping patterns and optimize your spending
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- How It Works Section -->
+      <section class="how-it-works">
+        <h2 class="section-title">How It Works</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="step__number">1</div>
+            <h3 class="step__title">Search Products</h3>
+            <p class="step__description">Find the products you want to buy</p>
+          </div>
+          <div class="step">
+            <div class="step__number">2</div>
+            <h3 class="step__title">Compare Prices</h3>
+            <p class="step__description">See prices from multiple sellers</p>
+          </div>
+          <div class="step">
+            <div class="step__number">3</div>
+            <h3 class="step__title">Negotiate</h3>
+            <p class="step__description">
+              Let Maala negotiate the best price for you
+            </p>
+          </div>
+          <div class="step">
+            <div class="step__number">4</div>
+            <h3 class="step__title">Save Money</h3>
+            <p class="step__description">Get the best deal and save money</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__section">
+          <h4 class="footer__title">About Maala</h4>
+          <ul class="footer__list">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/careers">Careers</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/press">Press</a></li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <h4 class="footer__title">Support</h4>
+          <ul class="footer__list">
+            <li><a href="/help">Help Center</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <h4 class="footer__title">Connect</h4>
+          <ul class="footer__list">
+            <li>
+              <a href="https://twitter.com/maala" target="_blank" rel="noopener"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://facebook.com/maala"
+                target="_blank"
+                rel="noopener"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://instagram.com/maala"
+                target="_blank"
+                rel="noopener"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com/company/maala"
+                target="_blank"
+                rel="noopener"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2024 Maala. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/js/main.js" defer></script>
+  </body>
+</html>
